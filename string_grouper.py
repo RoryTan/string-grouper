@@ -33,7 +33,7 @@ class String_Grouper:
 
         string = string.lower()  # lower case
 
-        string = fix_text(string)  # fix tfiext
+        string = fix_text(string)  # fix text
 
         string = string.encode(
             "ascii", errors="ignore"
